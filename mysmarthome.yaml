@@ -1,0 +1,199 @@
+mysmarthome: 
+
+  # Font
+  primary-font-family: 'Montserrat'
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"  
+
+  # Spacings and radius
+  horizontal-stack-card-margin: 0px 6px
+  vertical-stack-card-margin: 12px
+  grid-card-gap: 12px
+  ha-card-border-width: "0px" # Removes default 1px line
+  ha-card-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)
+  ha-card-border-radius: 30px
+  masonry-view-card-margin: 4px 4px
+  vertical-stack-card-gap: 0px
+  stack-card-gap: 0px
+
+  # Main Interface Colors
+  primary-color: var(--blue-dark)
+  accent-color: var(--blue-dark)
+  primary-background-color: var(--background)
+  secondary-background-color: var(--background)
+  divider-color: var(--gray100)
+
+  # Text
+  primary-text-color: var(--gray800)
+  secondary-text-color: var(--gray500)
+  text-primary-color: var(--gray800)
+  disabled-text-color: var(--gray400)
+  text-accent-color: var(--gray100)
+  warning-color: var(--orange)
+  gauge-color: var(--green)
+  success-color: var(--green)
+
+  # Header:
+  app-header-background-color: var(--background)
+  app-header-text-color: var(--gray800)
+  app-header-selection-bar-color: transparant
+  app-header-edit-background-color: var(--background)
+  app-header-edit-text-color: var(--gray800)
+
+  # Cards
+  card-background-color: var(--gray000)
+  ha-card-background: var(--gray000)
+  ha-card-border-color: transparent
+  paper-listbox-background-color: var(--gray000)
+
+  # Sidebar Menu
+  sidebar-icon-color: var(--gray400)
+  sidebar-text-color: var(--gray800)
+  sidebar-background-color: var(--background)
+  sidebar-selected-icon-color: var(--gray800)
+  sidebar-selected-text-color: var(--gray800)
+
+  # Table
+  table-row-background-color: var(--gray100)
+  table-row-alternative-background-color: var(--gray200)
+  data-table-background-color: var(--gray100)
+  mdc-text-field-fill-color: var(--gray100)
+
+  # Input
+  input-fill-color: var(--gray100)
+  input-dropdown-icon-color: var(--gray500)
+  material-background-color: var(--gray200)
+  material-secondary-background-color: red
+  input-ink-color: var(--gray800)
+  input-label-ink-color: var(--gray500)
+  input-idle-line-color: var(--gray500)
+  input-hover-line-color: var(--gray800)
+  mdc-select-fill-color: var(--input-fill-color)
+  mdc-select-ink-color: var(--input-ink-color)
+  mdc-select-label-ink-color: var(--input-label-ink-color)
+  mdc-select-idle-line-color: var(--input-idle-line-color)
+  mdc-select-dropdown-icon-color: var(--input-dropdown-icon-color)
+  mdc-select-hover-line-color: var(--input-hover-line-color)
+  mdc-text-field-disabled-fill-color: var(--gray300)
+
+  # Modal screen
+  mdc-theme-surface: var(--gray000)
+
+  # Checkboxes
+  mdc-checkbox-unchecked-color: var(--gray700)
+
+  # Colors
+  orange-color: var(--orange)
+  green-color: var(--green)
+  blue-color: var(--blue)
+  red-color: var(--red)
+  purple-color: var(--purple)
+  yellow-color: var(--yellow)
+  grey-color: var(--gray400)
+
+  # Energy 
+  energy-grid-consumption-color: var(--blue-dark)
+  energy-grid-return-color: var(--purple)
+  energy-solar-color: var(--orange)
+  energy-non-fossil-color: var(--green)
+  energy-battery-out-color: "#4db6ac"
+  energy-battery-in-color: "#f06292"
+  energy-gas-color: var(--gray400)
+
+
+  #######################################################
+  ############### Custom global variables ###############
+  #######################################################
+
+  # Gradients
+  active-light: linear-gradient(145deg, rgba(251,192,217,1) 0%, rgba(255,212,193,1) 100%)
+  active-small: linear-gradient(145deg, rgba(255,212,193,1) 0%, rgba(248,177,235,1) 100%)
+  active-big: linear-gradient(145deg, rgba(255,220,178,1) 0%, rgba(255,176,233,1) 60%, rgba(104,156,255,1) 150%)
+
+  # Colors
+  black: "#28282A"
+  white: "#f5f7fa"
+
+
+  ########################################################
+  ############### Variables based on modes ###############
+  ########################################################
+
+  modes:
+    light:
+      background: "#f5f7fa"
+
+      
+      highlight: 40, 40, 42, 0.05
+      highlight_active: 250, 251, 252, 0.1
+      highlight2: 40, 40, 42, 0.1   
+
+      popupBG: "#fafbfc"
+      gray000: "#edeff2"
+      gray100: "#e9eaec"
+      gray150: "#EDEEEF"
+      gray200: "#d6d7d9"
+      gray300: "#b6b7b9"
+      gray400: "#909193"
+      gray500: "#707173"
+      gray600: "#494a4c"
+      gray700: "#313233"
+      gray800: "#0f0f10"
+      
+      # Colors
+      green: "#c5e4ac"
+      purple: "#e3d4f6"
+      yellow: "#faedae"
+      red: "#f0a994"
+      blue: "#c8ddfa"
+      blue-dark: "#abcbf8"
+      orange: "#ffd1b1"
+      pink: "#eda7b2"
+      lime: "#e6f4ac"
+
+    dark:
+      background: "#28282A"
+
+      highlight: 250, 251, 252, 0.05
+      highlight_active: 40, 40, 42, 0.1
+      highlight2: 250, 251, 252, 0.1
+
+      popupBG: "#28282A"
+      gray000: "#3a3b3d"
+      gray100: "#353637"
+      gray150: "#323234"
+      gray200: "#404142"
+      gray300: "#555658"
+      gray400: "#737476"
+      gray500: "#939496"
+      gray600: "#c8c9cb"
+      gray700: "#eff0f2"
+      gray800: "#ffffff"
+      
+      # Colors
+      green: "#b4d29b"
+      purple: "#d5c1ed"
+      yellow: "#fbf1be"
+      red: "#cd816c"
+      blue: "#abcbf8"
+      blue-dark: "#c8ddfa"
+      orange: "#ffba8a"
+      pink: "#f6b9c3"
+      lime: "#eaf6bc"
+   
+
+  card-mod-theme: Mytheme_v2
+
+  card-mod-card-yaml: |
+
+    .: |
+
+      ha-card.button-card-main {
+        padding: 0px ;
+      }
