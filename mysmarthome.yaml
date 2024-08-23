@@ -188,7 +188,7 @@ mysmarthome:
       lime: "#eaf6bc"
    
 
-  card-mod-theme: Mytheme_v2
+  card-mod-theme: mysmarthome
 
   card-mod-card-yaml: |
 
