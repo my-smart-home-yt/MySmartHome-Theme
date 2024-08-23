@@ -1,6 +1,8 @@
 mysmarthome: 
 
   # Font
+  # To enable this custom font go to Settings > Dashboards > Three dots > Resources. Add this link as a Stylesheet:
+  # https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900
   primary-font-family: 'Montserrat'
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "var(--primary-font-family)"
