@@ -2,8 +2,8 @@ mysmarthome:
 
   # Font
   # To enable this custom font go to Settings > Dashboards > Three dots > Resources. Add this link as a Stylesheet:
-  # https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900
-  primary-font-family: 'Montserrat'
+  # https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600;700
+  primary-font-family: "'Space Grotesk', sans-serif"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "var(--primary-font-family)"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
@@ -12,6 +12,7 @@ mysmarthome:
   paper-font-caption_-_font-family: "var(--primary-font-family)"
   paper-font-title_-_font-family: "var(--primary-font-family)"
   ha-card-header-font-family: "var(--primary-font-family)"  
+  
 
   # Spacings and radius
   horizontal-stack-card-margin: 0px 6px
@@ -114,12 +115,14 @@ mysmarthome:
   #######################################################
 
   # Gradients
-  active-light: linear-gradient(145deg, rgba(251,192,217,1) 0%, rgba(255,212,193,1) 100%)
+  active-light: linear-gradient(145deg, var(--light-on-gradient-start) 10%, var(--light-on-gradient-end) 100%)
+  active-light-off: linear-gradient(145deg, var(--light-off-gradient-start) 0%, var(--light-off-gradient-end) 50%)  
   active-small: linear-gradient(145deg, rgba(255,212,193,1) 0%, rgba(248,177,235,1) 100%)
   active-big: linear-gradient(145deg, rgba(255,220,178,1) 0%, rgba(255,176,233,1) 60%, rgba(104,156,255,1) 150%)
 
   # Colors
   black: "#28282A"
+  black2: "#0f0f10"
   white: "#f5f7fa"
 
 
@@ -131,6 +134,11 @@ mysmarthome:
     light:
       background: "#f5f7fa"
 
+      light-off-gradient-start: "rgba(255,176,233,0.1)"
+      light-off-gradient-end: "rgba(250,251,252,1)"
+
+      light-on-gradient-start: "rgba(255,176,233,0.2)"
+      light-on-gradient-end: "rgba(255,183,77,0.3)"
       
       highlight: 40, 40, 42, 0.05
       highlight_active: 250, 251, 252, 0.1
@@ -162,11 +170,17 @@ mysmarthome:
     dark:
       background: "#28282A"
 
+      light-off-gradient-start: "rgba(255,176,233,0.15)"
+      light-off-gradient-end: "rgba(50,50,52,1)"
+
+      light-on-gradient-start: "rgba(255,176,233,0.05)"
+      light-on-gradient-end: "rgba(255,220,178,1)"      
+
       highlight: 250, 251, 252, 0.05
       highlight_active: 40, 40, 42, 0.1
       highlight2: 250, 251, 252, 0.1
 
-      popupBG: "#28282A"
+      popupBG: "#323234"
       gray000: "#3a3b3d"
       gray100: "#353637"
       gray150: "#323234"
@@ -190,7 +204,7 @@ mysmarthome:
       lime: "#eaf6bc"
    
 
-  card-mod-theme: mysmarthome
+  card-mod-theme: Mytheme_v2
 
   card-mod-card-yaml: |
 
