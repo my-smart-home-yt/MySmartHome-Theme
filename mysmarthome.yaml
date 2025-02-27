@@ -202,14 +202,3 @@ mysmarthome:
       orange: "#ffba8a"
       pink: "#f6b9c3"
       lime: "#eaf6bc"
-   
-
-  card-mod-theme: Mytheme_v2
-
-  card-mod-card-yaml: |
-
-    .: |
-
-      ha-card.button-card-main {
-        padding: 0px ;
-      }
