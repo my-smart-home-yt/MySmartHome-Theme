@@ -2,6 +2,10 @@ My SmartHome Theme v3:
 
   # Font
   primary-font-family: "'Space Grotesk', sans-serif"
+  ha-font-family-body: "var(--primary-font-family)"
+  ha-font-family-heading: "var(--primary-font-family)"
+  ha-font-family-code: "var(--primary-font-family)"
+  ha-font-family-longform: "var(--primary-font-family)"
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "var(--primary-font-family)"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
@@ -9,7 +13,7 @@ My SmartHome Theme v3:
   paper-font-headline_-_font-family: "var(--primary-font-family)"
   paper-font-caption_-_font-family: "var(--primary-font-family)"
   paper-font-title_-_font-family: "var(--primary-font-family)"
-  ha-card-header-font-family: "var(--primary-font-family)"  
+  ha-card-header-font-family: "var(--primary-font-family)" 
   
 
   # Spacings and radius
