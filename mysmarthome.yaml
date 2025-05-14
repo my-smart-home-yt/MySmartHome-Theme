@@ -4,6 +4,10 @@ mysmarthome:
   # To enable this custom font go to Settings > Dashboards > Three dots > Resources. Add this link as a Stylesheet:
   # https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600;700
   primary-font-family: "'Space Grotesk', sans-serif"
+  ha-font-family-body: "var(--primary-font-family)"
+  ha-font-family-heading: "var(--primary-font-family)"
+  ha-font-family-code: "var(--primary-font-family)"
+  ha-font-family-longform: "var(--primary-font-family)"  
   paper-font-common-base_-_font-family: "var(--primary-font-family)"
   paper-font-common-code_-_font-family: "var(--primary-font-family)"
   paper-font-body1_-_font-family: "var(--primary-font-family)"
